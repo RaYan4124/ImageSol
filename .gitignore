@@ -1,0 +1,30 @@
+# --------------------
+# Backend (Spring Boot / Maven)
+# --------------------
+backend/target/
+backend/.env
+backend/*.log
+
+# Maven wrapper caches
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / IntelliJ / VSCode files
+*.iml
+.idea/
+*.class
+*.jar
+
+# --------------------
+# Frontend (Vue / Node)
+# --------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/*.log
+frontend/.DS_Store
+
+# --------------------
+# Système
+# --------------------
+*.DS_Store
+Thumbs.db
