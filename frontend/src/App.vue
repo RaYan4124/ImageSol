@@ -2,7 +2,6 @@
   import SideBar from './components/layout/SideBar.vue'
   import { useRoute } from 'vue-router';
   import { computed, ref } from 'vue'
-  import Visualizer from './Views/Visualizer.vue';
 
   export interface Image{
     id: number;
